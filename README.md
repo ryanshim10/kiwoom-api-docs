@@ -26,13 +26,22 @@
    - 부분 취소 처리
    - 실전 패턴 (손절, 추가 매수)
 
+### 투자 전략 가이드
+4. **TTEOLSA_OPAL_INVESTMENT_GUIDE.md** ⭐ (NEW)
+   - 떨사오팔 전략 완전 가이드
+   - 종목 선정 (거래량 기준)
+   - 매수/매도 신호 (MA기반)
+   - 포지션 관리 (동시 보유)
+   - 실전 실행 명령어 (Mock/Live)
+   - Q&A (7가지 주요 질문)
+
 ### 예정 문서
-4. **KIWOOM_INQUIRY_API.md** (조회 API)
+5. **KIWOOM_INQUIRY_API.md** (조회 API)
    - 체결 조회 (ka10076)
    - 미체결 조회 (ka10075)
    - 보유 종목 조회
 
-5. **KIWOOM_AUTHENTICATION.md** (인증)
+6. **KIWOOM_AUTHENTICATION.md** (인증)
    - OAuth 2.0 토큰 발급
    - 토큰 갱신 (Refresh)
    - 토큰 관리 전략
@@ -217,8 +226,9 @@ token = auth.refresh_token(refresh_token)
 
 | 날짜 | 내용 |
 |------|------|
-| 2026-02-23 | 초판 작성 (kt10001) |
-| - | - |
+| 2026-02-23 | 떨사오팔 투자법 완전 가이드 추가 |
+| 2026-02-23 | kt10002(정정), kt10003(취소) 추가 |
+| 2026-02-23 | kt10001(주문) 초판 작성 |
 
 ---
 
